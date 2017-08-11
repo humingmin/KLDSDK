@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9d3e38c2-9d32-354e-a450-aabef366a0b6++8096",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "9d3e38c2-9d32-354e-a450-aabef366a0b6++8096" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9d3e38c2-9d32-354e-a450-aabef366a0b6++8096" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "35EF6D0D-B70F-497B-B655-5B54C2E5F135",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9d3e38c2-9d32-354e-a450-aabef366a0b6++8096" : "170422_2.0.1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CldNaviDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo\/CldNaviDemo\/CldNaviDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/tds\/svn\/iphone",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9d3e38c2-9d32-354e-a450-aabef366a0b6++8096"
+    }
+  ]
+}

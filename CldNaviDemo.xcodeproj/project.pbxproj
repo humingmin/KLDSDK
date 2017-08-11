@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA314821F3D7EC900EE71B6 /* CLDServerStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA314811F3D7EC900EE71B6 /* CLDServerStart.m */; };
+		2CA314851F3D816700EE71B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA314831F3D816700EE71B6 /* AppDelegate.m */; };
+		822B97141BD09E1C004F7379 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F47A8B1BD0985800E4BAE8 /* libstdc++.tbd */; };
+		82F47A921BD0987B00E4BAE8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F47A911BD0987B00E4BAE8 /* SystemConfiguration.framework */; };
+		82F47A941BD0988700E4BAE8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F47A931BD0988700E4BAE8 /* CoreLocation.framework */; };
+		82F47A961BD0989500E4BAE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F47A951BD0989500E4BAE8 /* AVFoundation.framework */; };
+		901721531C449AB400099A1C /* CldNaviSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901721501C449AB400099A1C /* CldNaviSDK.framework */; };
+		901721541C449AB400099A1C /* CldSDK_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901721511C449AB400099A1C /* CldSDK_Base.framework */; };
+		901721551C449AB400099A1C /* CldSearchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901721521C449AB400099A1C /* CldSearchSDK.framework */; };
+		90218A121C157A72005C77C5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90218A111C157A72005C77C5 /* OpenGLES.framework */; };
+		90218A141C157A7B005C77C5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90218A131C157A7B005C77C5 /* OpenAL.framework */; };
+		90218A161C157AC0005C77C5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90218A151C157AC0005C77C5 /* CoreText.framework */; };
+		90218A181C157ACB005C77C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90218A171C157ACB005C77C5 /* QuartzCore.framework */; };
+		90218A1A1C157AF4005C77C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90218A191C157AF4005C77C5 /* CoreGraphics.framework */; };
+		90218A1C1C157B01005C77C5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90218A1B1C157B01005C77C5 /* AudioToolbox.framework */; };
+		90EA14ED1C0D95D900AAB014 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EA14EC1C0D95D900AAB014 /* MobileCoreServices.framework */; };
+		90EF15141C16D46B00C9D984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EF14F71C16D46B00C9D984 /* Assets.xcassets */; };
+		90EF151A1C16D46B00C9D984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF15021C16D46B00C9D984 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CA314801F3D7EC900EE71B6 /* CLDServerStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDServerStart.h; sourceTree = "<group>"; };
+		2CA314811F3D7EC900EE71B6 /* CLDServerStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDServerStart.m; sourceTree = "<group>"; };
+		2CA314831F3D816700EE71B6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CA314841F3D816700EE71B6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		822B970C1BD09D8D004F7379 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		822B970E1BD09D9C004F7379 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		822B97101BD09DB4004F7379 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		822B97121BD09DC8004F7379 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		82C0394B1BC60B9500E3A858 /* CldNaviDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CldNaviDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F47A8B1BD0985800E4BAE8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		82F47A8F1BD0986D00E4BAE8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		82F47A911BD0987B00E4BAE8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		82F47A931BD0988700E4BAE8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		82F47A951BD0989500E4BAE8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		901721501C449AB400099A1C /* CldNaviSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CldNaviSDK.framework; path = CldNaviDemo/CldNaviSDK/CldNaviSDK.framework; sourceTree = "<group>"; };
+		901721511C449AB400099A1C /* CldSDK_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CldSDK_Base.framework; path = CldNaviDemo/CldNaviSDK/CldSDK_Base.framework; sourceTree = "<group>"; };
+		901721521C449AB400099A1C /* CldSearchSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CldSearchSDK.framework; path = CldNaviDemo/CldNaviSDK/CldSearchSDK.framework; sourceTree = "<group>"; };
+		90218A111C157A72005C77C5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		90218A131C157A7B005C77C5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		90218A151C157AC0005C77C5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		90218A171C157ACB005C77C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		90218A191C157AF4005C77C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90218A1B1C157B01005C77C5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		90EA14EC1C0D95D900AAB014 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		90EF14F71C16D46B00C9D984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90EF15011C16D46B00C9D984 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EF15021C16D46B00C9D984 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C039481BC60B9500E3A858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901721531C449AB400099A1C /* CldNaviSDK.framework in Frameworks */,
+				901721541C449AB400099A1C /* CldSDK_Base.framework in Frameworks */,
+				901721551C449AB400099A1C /* CldSearchSDK.framework in Frameworks */,
+				90218A1C1C157B01005C77C5 /* AudioToolbox.framework in Frameworks */,
+				90218A1A1C157AF4005C77C5 /* CoreGraphics.framework in Frameworks */,
+				90218A181C157ACB005C77C5 /* QuartzCore.framework in Frameworks */,
+				90218A161C157AC0005C77C5 /* CoreText.framework in Frameworks */,
+				82F47A941BD0988700E4BAE8 /* CoreLocation.framework in Frameworks */,
+				90218A141C157A7B005C77C5 /* OpenAL.framework in Frameworks */,
+				90218A121C157A72005C77C5 /* OpenGLES.framework in Frameworks */,
+				90EA14ED1C0D95D900AAB014 /* MobileCoreServices.framework in Frameworks */,
+				822B97141BD09E1C004F7379 /* libstdc++.tbd in Frameworks */,
+				82F47A961BD0989500E4BAE8 /* AVFoundation.framework in Frameworks */,
+				82F47A921BD0987B00E4BAE8 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82C039421BC60B9500E3A858 = {
+			isa = PBXGroup;
+			children = (
+				90EF14F41C16D46B00C9D984 /* CldNaviDemo */,
+				82FC7D7A1BC90FB300DB85B1 /* Frameworks */,
+				82C0394C1BC60B9500E3A858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82C0394C1BC60B9500E3A858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C0394B1BC60B9500E3A858 /* CldNaviDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FC7D7A1BC90FB300DB85B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				901721501C449AB400099A1C /* CldNaviSDK.framework */,
+				901721511C449AB400099A1C /* CldSDK_Base.framework */,
+				901721521C449AB400099A1C /* CldSearchSDK.framework */,
+				90218A1B1C157B01005C77C5 /* AudioToolbox.framework */,
+				90218A191C157AF4005C77C5 /* CoreGraphics.framework */,
+				90218A171C157ACB005C77C5 /* QuartzCore.framework */,
+				90218A151C157AC0005C77C5 /* CoreText.framework */,
+				90218A131C157A7B005C77C5 /* OpenAL.framework */,
+				90218A111C157A72005C77C5 /* OpenGLES.framework */,
+				90EA14EC1C0D95D900AAB014 /* MobileCoreServices.framework */,
+				82F47A951BD0989500E4BAE8 /* AVFoundation.framework */,
+				82F47A931BD0988700E4BAE8 /* CoreLocation.framework */,
+				82F47A911BD0987B00E4BAE8 /* SystemConfiguration.framework */,
+				82F47A8F1BD0986D00E4BAE8 /* Security.framework */,
+				82F47A8B1BD0985800E4BAE8 /* libstdc++.tbd */,
+				822B97121BD09DC8004F7379 /* libiconv.tbd */,
+				822B97101BD09DB4004F7379 /* libc++.tbd */,
+				822B970E1BD09D9C004F7379 /* libsqlite3.tbd */,
+				822B970C1BD09D8D004F7379 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90EF14F41C16D46B00C9D984 /* CldNaviDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2CA314841F3D816700EE71B6 /* AppDelegate.h */,
+				2CA314831F3D816700EE71B6 /* AppDelegate.m */,
+				2CA314801F3D7EC900EE71B6 /* CLDServerStart.h */,
+				2CA314811F3D7EC900EE71B6 /* CLDServerStart.m */,
+				90EF14F71C16D46B00C9D984 /* Assets.xcassets */,
+				90EF15011C16D46B00C9D984 /* Info.plist */,
+				90EF15021C16D46B00C9D984 /* main.m */,
+			);
+			path = CldNaviDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C0394A1BC60B9500E3A858 /* CldNaviDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C039621BC60B9500E3A858 /* Build configuration list for PBXNativeTarget "CldNaviDemo" */;
+			buildPhases = (
+				82C039471BC60B9500E3A858 /* Sources */,
+				82C039481BC60B9500E3A858 /* Frameworks */,
+				82C039491BC60B9500E3A858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CldNaviDemo;
+			productName = iOSSDKDemo;
+			productReference = 82C0394B1BC60B9500E3A858 /* CldNaviDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C039431BC60B9500E3A858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Careland;
+				TargetAttributes = {
+					82C0394A1BC60B9500E3A858 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = MRB87RUT4R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 82C039461BC60B9500E3A858 /* Build configuration list for PBXProject "CldNaviDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82C039421BC60B9500E3A858;
+			productRefGroup = 82C0394C1BC60B9500E3A858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C0394A1BC60B9500E3A858 /* CldNaviDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C039491BC60B9500E3A858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EF15141C16D46B00C9D984 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C039471BC60B9500E3A858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA314821F3D7EC900EE71B6 /* CLDServerStart.m in Sources */,
+				90EF151A1C16D46B00C9D984 /* main.m in Sources */,
+				2CA314851F3D816700EE71B6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82C039601BC60B9500E3A858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82C039611BC60B9500E3A858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82C039631BC60B9500E3A858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fengkun Lin (V7KRD24RX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MRB87RUT4R;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/CldNaviDemo/CldNaviSDK";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = CldNaviDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-w",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cld.sdk.naviDemo;
+				PRODUCT_NAME = CldNaviDemo;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		82C039641BC60B9500E3A858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fengkun Lin (V7KRD24RX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MRB87RUT4R;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/CldNaviDemo/CldNaviSDK";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = CldNaviDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-w",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cld.sdk.naviDemo;
+				PRODUCT_NAME = CldNaviDemo;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C039461BC60B9500E3A858 /* Build configuration list for PBXProject "CldNaviDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C039601BC60B9500E3A858 /* Debug */,
+				82C039611BC60B9500E3A858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C039621BC60B9500E3A858 /* Build configuration list for PBXNativeTarget "CldNaviDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C039631BC60B9500E3A858 /* Debug */,
+				82C039641BC60B9500E3A858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82C039431BC60B9500E3A858 /* Project object */;
+}
